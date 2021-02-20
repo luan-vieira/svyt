@@ -17,7 +17,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0",
-    "yt-search": "^2.7.3"
+    "axios": "^0.21.1",
+    "query-string": "^6.14.0",
+    "sirv-cli": "^1.0.0"
   }
 }

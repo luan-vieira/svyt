@@ -1,17 +1,13 @@
 <script>
-	import YTSearch from "youtube-api-search";
-
-	const YB_API_KEY = "AIzaSyDa0D7UfyGESqovX4-x-YQxvAhe2l08Pr4"; // heh :devil:
-	const YB_API_BASE_URI = "https://www.googleapis.com/youtube/v3";
-
-	YTSearch({ key: YB_API_KEY, term: "puppy" }, (videos) => {
-		console.log(videos);
-	});
+	import SearchBar from "./SearchBar.svelte";
+	import VideoList from "./VideoList.svelte";
 </script>
 
 <main>
 	<h1>Hello, Jack!</h1>
 	<p>Welcome to Earf</p>
+	<SearchBar />
+	<VideoList />
 </main>
 
 <style>
